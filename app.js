@@ -21,6 +21,7 @@ function search(e){
                     }else{
                     // render the profile in the DOM using the ui.js file
                     ui.showProfile(data.profile);
+                    ui.showRepos(data.repos);
                     }
                 })
     }else{
